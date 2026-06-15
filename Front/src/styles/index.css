@@ -1,0 +1,18 @@
+/* 常见重置或全局变量示例 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+/* 示例：Element Plus 调整全局字体大小 */
+html {
+  font-size: 14px;
+}
+
+/* 也可根据需要写主题色、工具类等 */

@@ -1,0 +1,10 @@
+// my-erp-frontend/src/main/java/com/example/myerp/repository/PurchaseRepository.java
+package com.example.myerp.repository;
+
+import com.example.myerp.entity.Purchase;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PurchaseRepository extends JpaRepository<Purchase, Long> {
+}
